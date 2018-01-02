@@ -1,3 +1,4 @@
+// Typescript를 Javascript로 컴파일할 때 적용할 옵션설정을 명시해 둔 파일입니다.
 {
   "compileOnSave": false,
   "compilerOptions": {
