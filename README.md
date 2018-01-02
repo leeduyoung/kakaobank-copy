@@ -1,6 +1,7 @@
-# AngularApp
+# kakaobank-copy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+Angular5를 사용하여 kakaobank(https://kakaobank.com/) 홈페이지를 구현해봅니다.
+상업적으로 사용하지 않으며, 개인 공부용으로 사용합니다.
 
 ## Development server
 
@@ -25,4 +26,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# kakaobank-copy
