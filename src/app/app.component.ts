@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgsRevealModule, NgsRevealConfig } from 'ng-scrollreveal';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  constructor(ngsRevealConfig: NgsRevealConfig) {
+    ngsRevealConfig.delay = 200;
+    ngsRevealConfig.duration = 1000;
+  }
 }
