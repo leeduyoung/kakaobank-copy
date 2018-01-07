@@ -211,11 +211,134 @@
         width: 100%;
         height: 936px;
         background-color: #f9f9f9;
+        text-align: center;
+        padding-bottom: 80px;
+        .content-text {
+            padding-top: 160px;
+            h3 {
+                font-size: 39px;
+                font-weight: 200;
+                line-height: 50px;
+            }
+        }
+        .content-hr {
+            margin: 50px auto 140px;
+            width: 100px;
+            height: 2px;
+            background-color: #000;
+        }
+        .content-img {
+            img {
+                width: 1020px;
+            }
+            ul {
+                width: 1020px;
+                margin: 0 auto;
+                li {
+                    float: left;
+                    width: 25%;
+                    height: 210px;
+                    strong {
+                        display: block;
+                        margin: 59px 0 17px;
+                        font-size: 18px;
+                        color: #000;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #666;
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
     }
     footer {
         position: relative;
         width: 100%;
         height: 120px;
         background-color: #eee;
+        .content-text {
+            width: 1080px;
+            margin: 0 auto;
+            padding: 0 20px;
+            .content-01 {
+                padding: 37px 0 12px;
+                a {
+                    font-size: 12px;
+                    color: #666;
+                    text-decoration: none;
+                }
+                span.text-hr {
+                    display: inline-block;
+                    width: 1px;
+                    height: 10px;
+                    margin: 3px 15px 0;
+                    background-color: #d8d8d8;
+                }
+            }
+            .content-02 {
+                font-size: 12px;
+                text-align: left;
+                .foreign-tel {
+                    padding: 0 19px 0 6px;
+                    font-weight: 200;
+                    color: #888;
+                }
+                small {
+                    color: #888;
+                }
+            }
+            ul.list-channel {
+                position: absolute;
+                top: 43px;
+                right: 15px;
+                li {
+                    display: inline-block;
+                    height: 20px;
+                    width: 30px;
+                    a {
+                        .facebook-logo {
+                            display: inline-block;
+                            width: 10px;
+                            height: 20px;
+                            margin: 0 auto;
+                            background-position: -120px -360px;
+                            background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                            background-size: 420px 390px;
+                        }
+                        .blog-logo {
+                            display: inline-block;
+                            width: 12px;
+                            height: 20px;
+                            margin: 0 auto;
+                            background-position: -140px -360px;
+                            background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                            background-size: 420px 390px;
+                        }
+                        .naver-logo {
+                            display: inline-block;
+                            width: 14px;
+                            height: 20px;
+                            background-position: -389px -360px;
+                            background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                            background-size: 420px 390px;
+                        }
+                        .youtube-logo {
+                            display: inline-block;
+                            width: 23px;
+                            height: 20px;
+                            background-position: -160px -360px;
+                            background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                            background-size: 420px 390px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
