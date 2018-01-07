@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+
+//reset css
+body,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+th,
+td {
+    padding: 0;
+}
+
+dl,
+ul,
+ol,
+menu,
+li {
+    list-style-type: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: none
+}
+
+span {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    display: block;
+}
+
+legend {
+    margin-left: -7px;
+    position: absolute;
+    left: -9999px;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+body {
+    background-color: #fafafa;
+}

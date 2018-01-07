@@ -1,0 +1,88 @@
+.home-container {
+    .kakao-head {
+        width: 100%;
+        height: 680px;
+        background: url("../../assets/imgs/bg_main_2400_1680.jpg");
+        background-size: cover;
+        .title {
+            padding-top: 228px;
+            width: 100%;
+            font-weight: 200;
+            font-size: 53px;
+            line-height: 66px;
+            color: #fff;
+            text-align: center;
+        }
+        .store-list {
+            padding-top: 80px;
+            text-align: center;
+            li {
+                display: inline-block;
+                border: 1px solid rgba(255, 255, 255, .3);
+                border-radius: 5px;
+                font-size: 20px;
+                height: 62px;
+                width: 205px;
+                line-height: 62px;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            .play-store {
+                display: inline-block;
+                width: 26px;
+                height: 28px;
+                background-position: -340px -290px;
+                vertical-align: middle;
+                background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                background-size: 420px 390px;
+            }
+            .app-store {
+                display: inline-block;
+                vertical-align: middle;
+                width: 24px;
+                height: 28px;
+                background-position: -370px -290px;
+                background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                background-size: 420px 390px;
+            }
+        }
+    }
+    .kakao-content-1 {
+        width: 100%;
+        height: 750px;
+        background-color: #fff;
+    }
+    .kakao-content-2 {
+        width: 100%;
+        height: 750px;
+        background: #fafafa url("../../assets/imgs/home_map.png") no-repeat 100% 50%;
+    }
+    .kakao-content-3 {
+        width: 100%;
+        height: 840px;
+        background-color: #fff;
+    }
+    .kakao-content-4 {
+        width: 100%;
+        height: 840px;
+        background-color: #559cde;
+    }
+    .kakao-content-5 {
+        width: 100%;
+        height: 1062px;
+        background-color: #fff;
+    }
+    .kakao-content-6 {
+        width: 100%;
+        height: 936px;
+        background-color: #f9f9f9;
+    }
+    footer {
+        width: 100%;
+        height: 120px;
+        background-color: #eee;
+    }
+}

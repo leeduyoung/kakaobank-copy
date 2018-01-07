@@ -1,71 +1,44 @@
 <div class="home-container">
-  <div class="kakao-head">head</div>
-  <div class="kakao-content">
-    <div class="kakao-top"></div>
-    <!-- basic usage -->
-    <div class="itemset" ngsRevealSet [ngsSelector]="'.item'">
-      <div class="item item1">Item 1</div>
-      <div class="item item2">Item 2</div>
-      <div class="item item3">Item 3</div>
-      <div class="item item4">Item 4</div>
-      <div class="item5">Item 5 (will not be animated)</div>
+    <div class="kakao-head">
+        <h3 class="title">같지만 다른 은행<br>카카오뱅크</h3>
+        <ul class="store-list">
+            <li>
+                <a href="#">
+                    <span class="play-store"></span> Google Play
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="app-store"></span> App Store
+                </a>
+            </li>
+        </ul>
     </div>
+    <div class="kakao-content-1">
 
-    <!-- With Custom Options -->
-    <div class="itemset" [ngsRevealSet]="{ reset:true}" [ngsSelector]="'.item'">
-      <div class="item item1">Item 1</div>
-      <div class="item item2">Item 2</div>
-      <div class="item item3">Item 3</div>
-      <div class="item item4">Item 4</div>
-      <div class="item5">Item 5 (will not be animated)</div>
     </div>
-
-    <!-- Sequentially animated items -->
-    <div class="itemset" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.item'">
-      <div class="item item1">Item 1</div>
-      <div class="item item2">Item 2</div>
-      <div class="item item3">Item 3</div>
-      <div class="item item4">Item 4</div>
-      <div class="item5">Item 5 (will not be animated)</div>
+    <div class="kakao-content-2">
     </div>
+    <div class="kakao-content-3">
+    </div>
+    <div class="kakao-content-4">
+    </div>
+    <div class="kakao-content-5">
+    </div>
+    <div class="kakao-content-6">
+    </div>
+    <footer class="kakao-footer">
 
-    <section class="demo" [ngsRevealSet]="{reset: true}" [ngsSelector]="'.seq-1'" [ngsInterval]="200">
-      <div class="column column-1">
-        <div [ngsReveal]="col1Config" class="block red seq-1"></div>
-        <div ngsReveal class="block orange"></div>
-        <div [ngsReveal]="{reset: true}" class="block purple"></div>
-        <div ngsReveal class="block blue"></div>
-      </div>
-      <div [ngsRevealSet]="{ reset: true, viewOffset: { top: 64 } }" [ngsSelector]="'.demo .block'" class="column column-2">
-        <div class="block orange seq-1"></div>
-        <div class="block purple"></div>
-        <div class="block red"></div>
-        <div class="block green"></div>
-      </div>
-      <div class="column column-3">
-        <div class="block yellow seq-1"></div>
-        <div class="block blue"></div>
-        <div class="block green"></div>
-        <div class="block yellow"></div>
-      </div>
-      <div class="column column-4">
-        <div class="block green seq-1"></div>
-        <div class="block yellow"></div>
-        <div class="block orange"></div>
-      </div>
-      <div class="column column-5">
-        <div class="block blue seq-1"></div>
-        <div class="block red"></div>
-        <div class="block purple"></div>
-        <div class="block red"></div>
-      </div>
-      <div class="column column-6">
-        <div class="block purple seq-1"></div>
-        <div class="block yellow"></div>
-        <div class="block orange"></div>
-        <div class="block purple"></div>
-      </div>
-    </section>
-  </div>
-  <footer class="kakao-footer"></footer>
+    </footer>
 </div>
+
+
+
+<!-- basic usage -->
+<!-- <div class="itemset" ngsRevealSet [ngsSelector]="'.item'">
+            <div class="item item1">Item 1</div>
+            <div class="item item2">Item 2</div>
+            <div class="item item3">Item 3</div>
+            <div class="item item4">Item 4</div>
+            <div class="item5">Item 5 (will not be animated)</div>
+        </div> -->
