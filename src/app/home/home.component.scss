@@ -212,6 +212,14 @@
                 line-height: 23px;
             }
         }
+        .slide-container {
+            position: absolute;
+            width: 800px;
+            height: 475px;
+            top: 380px;
+            left: 50%;
+            margin-left: -400px;
+        }
     }
     .kakao-content-6 {
         position: relative;
