@@ -219,6 +219,56 @@
             top: 380px;
             left: 50%;
             margin-left: -400px;
+            .card {
+                width: 800px !important;
+                height: 440px !important;
+                img {
+                    width: 280px;
+                    height: 440px;
+                }
+            }
+            .slick-prev,
+            .slick-next {
+                left: 50%;
+                top: 200px;
+                width: 38px;
+                height: 72px;
+            }
+            .slick-prev {
+                margin-left: -580px;
+                &::before {
+                    content: url("../../assets/imgs/img-left.png");
+                }
+            }
+            .slick-next {
+                margin-left: 546px;
+                &::before {
+                    content: url("../../assets/imgs/img-right.png");
+                }
+            }
+        }
+        .benefit {
+            position: absolute;
+            width: 400px;
+            height: 30px;
+            bottom: 144px;
+            left: 50%;
+            text-align: center;
+            margin-left: -200px;
+            text-decoration: none;
+            color: inherit;
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 15px;
+                text-decoration: underline;
+            }
+            img {
+                display: inline-block;
+                vertical-align: middle;
+                width: 24px;
+                margin-left: 10px;
+            }
         }
     }
     .kakao-content-6 {
