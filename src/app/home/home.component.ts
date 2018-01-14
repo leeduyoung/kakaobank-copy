@@ -26,9 +26,7 @@ export class HomeComponent implements OnInit {
       arrows: true,
       slidesToShow: 3,
       slidesToScroll: 1,
-      fade: false,
-      centerMode: true,
-      centerPadding: '40px'
+      fade: false
     });
   }
 
