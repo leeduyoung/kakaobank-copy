@@ -220,10 +220,19 @@
             left: 50%;
             margin-left: -400px;
             .slick-slide {
-                margin: 7px;
+                img {
+                    position: relative;
+                    width: 240px;
+                    top: 30px;
+                    transition: all .25s;
+                }
             }
-            .slide-active {
-                height: 440px !important;
+            .slick-current {
+                img {
+                    width: 280px;
+                    top: 0;
+                    left: -20px;
+                }
             }
             .slick-prev,
             .slick-next {
