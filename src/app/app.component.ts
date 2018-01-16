@@ -9,6 +9,6 @@ import { NgsRevealModule, NgsRevealConfig } from 'ng-scrollreveal';
 export class AppComponent {
   constructor(ngsRevealConfig: NgsRevealConfig) {
     ngsRevealConfig.delay = 200;
-    ngsRevealConfig.duration = 1000;
+    ngsRevealConfig.duration = 800;
   }
 }

@@ -36,4 +36,8 @@ export class HomeComponent implements OnInit {
 
   }
 
+  goSubmit() {
+    console.log('goSubmit()');
+  }
+
 }

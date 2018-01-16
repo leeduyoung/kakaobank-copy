@@ -56,6 +56,44 @@
                 background-size: 420px 390px;
             }
         }
+        .submit-button {
+            position: absolute;
+            right: 20px;
+            bottom: 40px;
+            width: 340px;
+            height: 64px;
+            font-size: 13px;
+            line-height: 64px;
+            background-color: #ffde00;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.35);
+            span {
+                &.text-hr {
+                    display: inline-block;
+                    width: 1px;
+                    height: 13px;
+                    margin: 0 14px;
+                    background-color: #ccb200;
+                }
+                &.submit-title {
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+                &.submit-sub-title {
+                    vertical-align: top;
+                }
+                &.submit-img {
+                    display: inline-block;
+                    width: 10px;
+                    height: 17px;
+                    background-position: -330px -70px;
+                    background-image: url("../../assets/imgs/retina_img_kabang_171010.png");
+                    background-size: 420px 390px;
+                    vertical-align: text-bottom;
+                    margin-left: 30px;
+                }
+            }
+        }
     }
     .kakao-content-1 {
         position: relative;
