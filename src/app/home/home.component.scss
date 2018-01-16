@@ -253,6 +253,16 @@
         height: 840px;
         background-color: #559cde;
         text-align: center;
+
+        .dark-background {
+            // position: absolute;
+            // top: 0;
+            // left: 0;
+            // right: 0;
+            // bottom: 0;
+            // background-color: #333b58;
+        }
+
         .content-text {
             padding-top: 160px;
             color: white;
