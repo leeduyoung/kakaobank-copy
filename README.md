@@ -1,7 +1,7 @@
 # kakaobank-copy
 
 Angular5를 사용하여 kakaobank(https://kakaobank.com/) 홈페이지를 구현해봅니다.
-상업적으로 사용하지 않으며, 개인 공부용으로 사용합니다.
+상업적으로 사용하지 않으며, 개인 스터디용으로 사용합니다.
 
 ## Development server
 
