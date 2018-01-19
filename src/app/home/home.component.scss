@@ -251,19 +251,66 @@
         position: relative;
         width: 100%;
         height: 840px;
-        background-color: #559cde;
         text-align: center;
 
+        .sky-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #559cde;
+            transition: height .85s;
+            .sun {
+                position: absolute;
+                top: 200px;
+                left: 50%;
+                width: 112px;
+                height: 112px;
+                margin-left: 450px;
+                border-radius: 56px;
+                background-color: #ffdc00;
+                transition: background-color .85s;
+            }
+            .shadow {
+                position: absolute;
+                top: 180px;
+                left: 48%;
+                width: 0px;
+                height: 0px;
+                margin-left: 450px;
+                border-radius: 56px;
+                background-color: #333b58;
+                transition: width .95s, height .95s;
+            }
+        }
+        
+        .close-sky-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 0%;
+            width: 100%;
+            .sun {
+                background-color: white;
+            }
+            .shadow {
+                width: 112px;
+                height: 112px;
+            }
+        }
+
         .dark-background {
-            // position: absolute;
-            // top: 0;
-            // left: 0;
-            // right: 0;
-            // bottom: 0;
-            // background-color: #333b58;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #333b58;
         }
 
         .content-text {
+            position: relative;
             padding-top: 160px;
             color: white;
             h3 {

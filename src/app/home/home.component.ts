@@ -1,4 +1,4 @@
-import { Component, OnInit,ViewEncapsulation } from '@angular/core';
+import { Component, OnInit,ViewEncapsulation, HostListener } from '@angular/core';
 import * as $ from 'jquery';
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
@@ -11,6 +11,8 @@ import 'slick-carousel/slick/slick-theme.css';
   encapsulation: ViewEncapsulation.None
 })
 export class HomeComponent implements OnInit {
+
+  backgroundColor: boolean = false;;
 
   constructor() { 
 
@@ -36,8 +38,14 @@ export class HomeComponent implements OnInit {
 
   }
 
+  @HostListener('window:scroll', ['$event']) onScroll($event){
+    // console.log('$event.srcElement.scrollTop: ',$event.srcElement.scrollingElement.scrollTop);
+
+    if($event.srcElement.scrollingElement.scrollTop > 2550)
+      this.backgroundColor = true;
+  } 
+
   goSubmit() {
     console.log('goSubmit()');
   }
-
 }

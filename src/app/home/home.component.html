@@ -74,8 +74,14 @@
             </p>
         </div>
     </div>
-    <div class="kakao-content-4">
-        <div class="dark-background"></div>
+    <div class="kakao-content-4" (scroll)="onScroll($event)">
+        <div class="dark-background">
+            <!-- <div class="moon"></div> -->
+        </div>
+        <div class="sky-background" [ngClass]="{'close-sky-background': backgroundColor}">
+            <div class="sun"></div>
+            <div class="shadow"></div>
+        </div>
         <div class="content-text">
             <h3>
                 서류 제출 없는 대출, 내가 원하는 시간에
